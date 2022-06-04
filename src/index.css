@@ -4,10 +4,6 @@
   font-family: "Nanum Gothic", sans-serif;
 }
 
-#root {
-  height: 100%;
-}
-
 html,
 body {
   margin: 0;
@@ -16,12 +12,17 @@ body {
   height: 100%;
 }
 
+#root {
+  height: 100%;
+}
+
 main {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
-  height: 100%;
+  height: calc(100% - 60px);
 }
+
 
 #title {
   padding: 5px;
