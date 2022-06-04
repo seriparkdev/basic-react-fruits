@@ -13,7 +13,9 @@ function Modal(props) {
       content: enteredContent.current.value,
     };
     props.addItemHandler(item);
+    props.closeModalHandler();
   }
+
 
   return (
     <>

@@ -78,13 +78,13 @@ function App() {
           ))}
         </section>
 
-        {modalIsOpen && 
+        {modalIsOpen && (
           <Modal
             addItemHandler={addItemHandler}
             openModalHandler={openModalHandler}
             closeModalHandler={closeModalHandler}
           />
-        }
+        )}
       </main>
     </>
   );
